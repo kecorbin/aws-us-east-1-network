@@ -1,0 +1,2 @@
+prefix = "kcorbin"
+route53_hosted_zone_name = "kcorbin.aws.hashidemos.io"
