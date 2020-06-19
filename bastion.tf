@@ -1,5 +1,5 @@
 resource "aws_instance" "bastion" {
-  ami                         = "ami-0bffdb8276bd2a3cc"
+  ami                         = "ami-0de751bc241f15b01"
   instance_type               = "t2.micro"
   subnet_id                   = "${module.vpc.public_subnets[0]}"
   key_name                    = "kcorbin-keypair"
